@@ -4,8 +4,8 @@ with rec {
   async_web_scrapper = pkgs.fetchFromGitHub {
     owner = "run4w4y";
     repo = "async_web_scrapper";
-    rev = "8c9d85736417076aaa8ec5d7abe2b5452b1cafe0";
-    sha256 = "0ns0vrb8pmvdfaqzahprs283laf6nl7zm0vrz7fm10sfy79z9vr6";
+    rev = "02372d82b73670558e474062a7c111e4eb0c3a93";
+    sha256 = "12amaq6msyg0v5ksr7jfi093swz046zp9xj04azdi04c56g7rhn3";
   };
 };
 [
