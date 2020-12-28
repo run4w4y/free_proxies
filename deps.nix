@@ -10,7 +10,7 @@ with rec {
 };
 [
   (import "${async_web_scrapper}/default.nix")
-  (python38.withPackages (p: with p; [
+  (pkgs.python38.withPackages (p: with p; [
     trio
   ]))
 ]
