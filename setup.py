@@ -17,7 +17,7 @@ setuptools.setup(
         'trio'
     ],
     dependency_links=[
-        'http://github.com/run4w4y/async_web_scrapper/tarball/main'
+        'http://github.com/run4w4y/async_web_scrapper/tarball/main#egg=async_web_scrapper'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",

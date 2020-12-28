@@ -5,4 +5,5 @@ buildPythonPackage rec {
   name = "free_proxies";
   src = ./.;
   propagatedBuildInputs = import ./deps.nix { inherit pkgs; };
+  catchConflicts = false;
 }
